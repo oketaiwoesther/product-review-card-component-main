@@ -1,0 +1,26 @@
+
+    .test{
+width: 100vw;
+height: 100vh;
+background-color: red;
+    }
+    @media screen and (max-width:320px)  {
+.test{
+    background-color: blue;
+}
+    }
+    @media screen and (min-width: 375px){
+.test{
+    background-color: green;
+}
+    }
+    @media screen and (min-width: 376px) {
+        .test{
+            background-color: aqua;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .test{
+            background-color: purple;
+        }
+    }

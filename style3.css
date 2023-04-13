@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap'); 
+:root{
+    --Dark-cyan:hsl(158, 36%, 37%);
+--Cream:hsl(30, 38%, 92%);
+--Very-dark-blue:hsl(212, 21%, 14%);
+--Dark-grayish-blue:hsl(228, 12%, 48%);
+--White:hsl(0, 0%, 100%);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--Cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 14px;
+}
+.main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 500px;
+    border-radius: 20px;
+
+    
+}
+.mobile{
+    width: 100%;
+    border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+    .desktop{
+        display: none;
+    }
+    
+
